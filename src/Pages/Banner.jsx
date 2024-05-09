@@ -30,7 +30,7 @@ const Banner = () => {
       >
         <SwiperSlide>
           <div
-            className="hero min-h-screen"
+            className="hero min-h-screen rounded-3xl"
             style={{
               backgroundImage:
                 "url(https://i.ibb.co/TqsfPDW/5.jpg)",
@@ -52,7 +52,7 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className="hero min-h-screen"
+            className="hero min-h-screen rounded-3xl"
             style={{
               backgroundImage:
                 "url(https://i.ibb.co/hs9qVQR/3.jpg)",
@@ -74,7 +74,7 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className="hero min-h-screen"
+            className="hero min-h-screen rounded-3xl"
             style={{
               backgroundImage:
                 "url(https://i.ibb.co/Jdm3jf4/4.jpg)",

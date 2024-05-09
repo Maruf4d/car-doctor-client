@@ -1,11 +1,22 @@
+import { Link } from "react-router-dom";
+
 const Navber = () => {
   const navLink = (
     <>
       <li>
-        <a>Item 1</a>
+        <Link to={'/'}>Home</Link>
       </li>
       <li>
-        <a>Item 3</a>
+        <a>About</a>
+      </li>
+      <li>
+        <a>Services</a>
+      </li>
+      <li>
+        <a>Blog</a>
+      </li>
+      <li>
+        <a>Contact</a>
       </li>
     </>
   );
@@ -46,7 +57,7 @@ const Navber = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <a className="btn btn-outline">Appointment</a>
         </div>
       </div>
     </div>
